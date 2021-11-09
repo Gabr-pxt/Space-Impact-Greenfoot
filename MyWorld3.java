@@ -28,7 +28,7 @@ public class MyWorld3 extends WorldGame
             addBots3();
         }
         
-        if (counter.score >= 900)
+        if (counter.score == 900)
         {
             Greenfoot.setWorld(new PhaseDone(counter.score,4));
         }
