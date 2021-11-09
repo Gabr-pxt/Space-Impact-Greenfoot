@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=WorldGame
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ WordGame\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=a\ b\ c
+comment1.target=WorldGame(int,\ int,\ int)
+comment2.params=
+comment2.target=Counter\ getCounter()
+comment3.params=
+comment3.target=Life\ getContador()
+comment4.params=
+comment4.target=void\ addBots()
+comment5.params=
+comment5.target=void\ addBots2()
+comment6.params=
+comment6.target=void\ addBots3()
+comment7.params=
+comment7.target=void\ prepare()
+numComments=8
