@@ -1,21 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import greenfoot.Actor;
 
-/**
- * Write a description of class Nave here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Nave extends Actor
 {
-    public void act()
+    public void act() // Metodo Update do Player
     {
         mover();
         atirar();
         bossHit();
     }    
-    public void mover()
+    
+    public void mover() // Movimentação do Player
     {
         if(Greenfoot.isKeyDown ("Up") && (getY() > 65))
         {
@@ -27,7 +22,8 @@ public class Nave extends Actor
             setLocation ( getX(),getY() +10);
         }
     }    
-    public void atirar() 
+    
+    public void atirar() // Chamada do objeto Tiro 
     {
         World w = getWorld();
         String key = Greenfoot.getKey();
@@ -37,9 +33,10 @@ public class Nave extends Actor
         }
     }
     
-    public void bossHit()
+    public void bossHit() // Executado quando o tiro disparado pelo Boss colide com o player
     {
         Actor tiroInimigo = getOneIntersectingObject(Tiro2.class);
+        
         if (tiroInimigo != null)
         {
             getWorld().removeObject(tiroInimigo);             

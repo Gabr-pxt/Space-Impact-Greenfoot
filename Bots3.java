@@ -1,11 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Bots3 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Bots3 extends Bots
 {
     int damageCheck = 3;
@@ -17,11 +11,12 @@ public class Bots3 extends Bots
     }
     
     public void alvoAcertado() {
+        
         Actor tiro = getOneIntersectingObject(Tiro.class);
         Actor nave = getOneIntersectingObject(Nave.class);
         
         
-        if (nave != null) 
+        if (nave != null) // Verifica se a colisão ocorreu com uma nave 
         {                     
              World world = getWorld();
              WorldGame myWorld = (WorldGame)world;
@@ -30,7 +25,7 @@ public class Bots3 extends Bots
              
              getWorld().removeObject(this);
         }
-        else if (tiro != null) 
+        else if (tiro != null) // Verifica se a colisão ocorreu com um tiro e decrementa o DamageCheck
         {
              damageCheck--;
              getWorld().removeObject(tiro);
@@ -39,7 +34,7 @@ public class Bots3 extends Bots
              WorldGame myWorld = (WorldGame)world;      
             
              
-             if(damageCheck == 0)
+             if(damageCheck == 0) // Verifica se DamageCheck é 0 e elimina o objeto
              {
     
                  Counter counter = myWorld.getCounter();
@@ -49,7 +44,7 @@ public class Bots3 extends Bots
              
 
         }
-        else if(getX() == 0) 
+        else if(getX() == 0) //Verifica se a colisão ocorreu com uma parede
         {
             getWorld().removeObject(this);
         }

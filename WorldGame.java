@@ -2,18 +2,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.Random;
 
 /**
- * Write a description of class WordGame here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author (Kaique, Joel, Gabriel e yago) 
+ * @version (V.1.0.1)
  */
+
 public class WorldGame extends World
 {
     Counter counter = new Counter();
     Random rand = new Random();
     Life life = new Life();   
     
-    boolean bossThere;
+    boolean bossThere = false;
     
     int upOrDown;
     int score = 0;
@@ -23,21 +22,29 @@ public class WorldGame extends World
         super(a, b, c); 
     }
      
+    // Get para contador de pontuação do Game
     public Counter getCounter()
     {
         return counter;
-    }    
+    }
+    
+    
+    // Get para verificar quantidade de vidas do player
     public Life getContador()
     {
         return life;
-    }    
-    public void addBots()
+    } 
+    
+    // Bots que entrarão na fase 001
+    public void addBots() 
     {
         int position = (int) (Math.random() * (400 - 65)) + 100;
         addObject(new Bots1(), 650, position);       
 
-    }    
-    public void addBots2()
+    } 
+    
+    // Bots que entrarão na fase 002
+    public void addBots2() 
     {
         if (!bossThere){
           int position = (int) (Math.random() * (400 - 65)) + 100;
@@ -50,17 +57,20 @@ public class WorldGame extends World
             bossThere = true;
         }
     }
-    public void addBots3()
+    
+    // Bots que entrarão na fase 003
+    public void addBots3() 
     {
         int position = (int) (Math.random() * (400 - 65)) + 100;
         addObject(new Bots3(), 650, position);       
 
     }    
+    
+    // Método padrão do jogo
     public void prepare()
     {        
         Nave nave = new Nave();
-        addObject(nave,81,213); 
-        nave.setLocation(85,326);
+        addObject(nave,81,213);
         nave.setLocation(109,219);
         addObject(counter,71,472);
         counter.setLocation(356,25);    

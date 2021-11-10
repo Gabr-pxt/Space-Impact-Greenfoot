@@ -1,11 +1,5 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Bots2 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Bots2 extends Bots
 {
     public void act()
@@ -14,10 +8,13 @@ public class Bots2 extends Bots
         alvoAcertado();
     }
     
+    // Verifica as colisões envolvendo o objeto dentro da cena
     public void alvoAcertado() {
+        
         Actor tiro = getOneIntersectingObject(Tiro.class);
         Actor nave = getOneIntersectingObject(Nave.class);
-        if (nave != null) 
+        
+        if (nave != null) // Verifica se a colisão ocorreu com uma nave 
         {                     
              World world = getWorld();
              WorldGame myWorld = (WorldGame)world;
@@ -26,7 +23,7 @@ public class Bots2 extends Bots
              
              getWorld().removeObject(this);
         }
-        else if (tiro != null) 
+        else if (tiro != null) // Verifica se a colisão ocorreu com um tiro
         {
              getWorld().removeObject(tiro);             
              World world = getWorld();
@@ -36,7 +33,7 @@ public class Bots2 extends Bots
              
              getWorld().removeObject(this);
         }
-        else if(getX() == 0) 
+        else if(getX() == 0) //Verifica se a colisão ocorreu com uma parede
         {
             getWorld().removeObject(this);
         }

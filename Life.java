@@ -1,16 +1,11 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Life here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Life extends Actor
 {
-    int contador = 5;
+    int contador = 5; // Numero max de vidas
     
-    public Life() 
+    public Life()
     {
         setImage(new GreenfootImage (" " + contador, 30, null, null));
     }
@@ -21,7 +16,7 @@ public class Life extends Actor
         youLose();
     }
     
-    public void removeLife() 
+    public void removeLife() // Remove as vidas contidas dentro do contador
     {
         if(contador > 0) 
         {
@@ -29,12 +24,7 @@ public class Life extends Actor
         }
     }
     
-    public void removeAllLifes() 
-    {
-        contador = 0;
-    }
-    
-    public void youLose() 
+    public void youLose() // Chamada da menssagem de game over
     {
         if (contador == 0)
         {

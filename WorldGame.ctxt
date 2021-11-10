@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=WorldGame
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ WordGame\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment0.text=\r\n\ @author\ (Kaique,\ Joel,\ Gabriel\ e\ yago)\ \r\n\ @version\ (V.1.0.1)\r\n
 comment1.params=a\ b\ c
 comment1.target=WorldGame(int,\ int,\ int)
 comment2.params=

@@ -1,18 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class MyWorld2 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class MyWorld2 extends WorldGame
 {
     Level level = new Level(2);
-    int actualScore;
     
     boolean bossIsDead = false;
-
+    
+    int actualScore;
+    
     public MyWorld2(int actualScore)
     {    
         super(700, 500, 1);
@@ -21,7 +16,7 @@ public class MyWorld2 extends WorldGame
         counter.score = actualScore;
     }
    
-    
+    // Metodo update da cena, realiza chamada dos bots e faz a verificação de levelUP
     public void act()
     {
         if(Greenfoot.getRandomNumber(60)<1)
@@ -39,14 +34,8 @@ public class MyWorld2 extends WorldGame
     {        
         super.prepare();
         addObject(level, 91,510);
-        level.setLocation(570,25);
-        counter.setLocation(344,471);
-        life.setLocation(65,478);
-        counter.setLocation(333,482);
-        level.setLocation(624,482);  
-        life.setLocation(51,19);
-        counter.setLocation(353,20);
+        life.setLocation(51,19); 
         level.setLocation(629,12);
-        counter.setLocation(365,18);
+        counter.setLocation(337,481);
     }
 }

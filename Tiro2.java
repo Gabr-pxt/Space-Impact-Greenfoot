@@ -1,22 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import java.util.Random;
 
-/**
- * Write a description of class Tiro2 here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Tiro2 extends Actor
 {
     
-    public void act()
+    public void act() // Movimentação do tiro criado a partir do Boss
     {
         move(-10);
         removeFromWorld();   
     }
     
-    public void removeFromWorld() 
+    public void removeFromWorld() // Elimina ao colidir com uma parede
     {       
         if(getX() < 10) {
             getWorld().removeObject(this);

@@ -1,27 +1,28 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-/**
- * Write a description of class Bots here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Bots extends Actor
 {
     public void act()
     {
         
-    }
+    }        
     
+    //movimentação dos bots
     public void moveBots()
     {        
         setLocation(getX()-5, getY());
     }
-        public void moveBots3()
+    
+    //movimentação dos bots a partir da fase 003
+    public void moveBots3()
     {        
         setLocation(getX()-3, getY());
     }
-    public void moveBoss(int upOrDown)
+    
+    
+    //movimentação dos bots que aparecerá na fase 002 contendo moviemntação alternada
+    public void moveBoss(int upOrDown) // recebe o parametro da direção da moviemntação do boss
     {
         if (upOrDown == 0)
         {
@@ -33,12 +34,12 @@ public class Bots extends Actor
         }
     }
     
-    
+    // remove os bots ao colidir com a parede do jogo
     public void removeBots()
     {         
-        if(getX() == 0)
+        if(getX() == 0) //Captura a posição do eixo X
         {
-            getWorld().removeObject(this);
+            getWorld().removeObject(this); //remove o objeto atual da cena
         }
     }
 }
