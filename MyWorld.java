@@ -2,7 +2,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class MyWorld extends WorldGame
 {
-    Level level = new Level();
+    Level level = new Level(super.hudColor);
     
     public MyWorld()
     {    

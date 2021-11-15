@@ -1,9 +1,9 @@
 #BlueJ class context
 comment0.target=Level
-comment1.params=
-comment1.target=Level()
-comment2.params=index
-comment2.target=Level(int)
+comment1.params=color
+comment1.target=Level(greenfoot.Color)
+comment2.params=index\ color
+comment2.target=Level(int,\ greenfoot.Color)
 comment3.params=
 comment3.target=void\ act()
 numComments=4

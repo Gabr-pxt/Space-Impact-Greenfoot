@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=Boss4
+comment1.params=upOrDown
+comment1.target=Boss4(int)
+comment2.params=
+comment2.target=void\ act()
+comment3.params=
+comment3.target=void\ autoFire()
+comment4.params=
+comment4.target=void\ alvoAcertado()
+numComments=5

@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=PhaseDone
-comment1.params=score\ phase
-comment1.target=PhaseDone(int,\ int)
+comment0.target=MyWorld4
+comment1.params=actualScore
+comment1.target=MyWorld4(int)
 comment2.params=
 comment2.target=void\ act()
 comment3.params=

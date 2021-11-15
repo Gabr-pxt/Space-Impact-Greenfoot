@@ -4,15 +4,17 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Life extends Actor
 {
     int contador = 5; // Numero max de vidas
+    Color color;
     
-    public Life()
+    public Life(Color color)
     {
-        setImage(new GreenfootImage (" " + contador, 30, null, null));
+        setImage(new GreenfootImage (" " + contador, 30, color, null));
+        this.color = color;
     }
     
     public void act()
     {
-        setImage(new GreenfootImage (" " + contador, 30, null, null));
+        setImage(new GreenfootImage (" " + contador, 30, color, null));
         youLose();
     }
     

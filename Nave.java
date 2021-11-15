@@ -8,6 +8,7 @@ public class Nave extends Actor
         mover();
         atirar();
         bossHit();
+        bulletHit();
     }    
     
     public void mover() // Movimentação do Player
@@ -23,27 +24,63 @@ public class Nave extends Actor
         }
     }    
     
-    public void atirar() // Chamada do objeto Tiro 
+    public void atirar()
+    {
+        World w = getWorld();
+        WorldGame world = (WorldGame) w;
+        if (world.gotBullet)
+            atirar2();
+        else
+            atirar1();
+    }
+    
+    public void atirar1() // Chamada do objeto Tiro 
     {
         World w = getWorld();
         String key = Greenfoot.getKey();
         if ("space".equals(key))
         {
-            w.addObject(new Tiro(), getX() +2, getY()); 
+            w.addObject(new Tiro(), getX() +2, getY());
+        }
+    }
+    
+    public void atirar2() // Chamada de dois objetos Tiro 
+    {
+        World w = getWorld();
+        String key = Greenfoot.getKey();
+        if ("space".equals(key))
+        {
+            w.addObject(new Tiro(), getX() +2, getY() - 9);
+            w.addObject(new Tiro(), getX() +2, getY() + 9);
         }
     }
     
     public void bossHit() // Executado quando o tiro disparado pelo Boss colide com o player
     {
-        Actor tiroInimigo = getOneIntersectingObject(Tiro2.class);
+        Actor tiroInimigo1 = getOneIntersectingObject(Tiro2.class);
+        Actor tiroInimigo2 = getOneIntersectingObject(Tiro3.class);
         
-        if (tiroInimigo != null)
+        if (tiroInimigo1 != null || tiroInimigo2 != null)
         {
-            getWorld().removeObject(tiroInimigo);             
+            getWorld().removeObject(tiroInimigo1);
+            getWorld().removeObject(tiroInimigo2);
             World world = getWorld();
             WorldGame myWorld = (WorldGame)world;
             Life life = myWorld.getContador();
             life.removeLife();
+        }
+    }
+    
+    public void bulletHit()
+    {
+        Actor bullet = getOneIntersectingObject(Bullet.class);
+        
+        if (bullet != null)
+        {
+            getWorld().removeObject(bullet);
+            World world = getWorld();
+            WorldGame myWorld = (WorldGame)world;
+            myWorld.gotBullet = true;
         }
     }
  }

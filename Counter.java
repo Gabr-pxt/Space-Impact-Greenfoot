@@ -4,15 +4,16 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class Counter extends Actor
 {
     int score = 0;
-    
-    public Counter() // geração do Score inicial do jogo
+    Color color;
+    public Counter(Color color) // geração do Score inicial do jogo
     {
-        setImage(new GreenfootImage ("     SCORE: " + score, 30, null, null));
+        setImage(new GreenfootImage ("     SCORE: " + score, 30, color, null));
+        this.color = color;
     }
     
     public void act() // atualização do Score
     {
-        setImage(new GreenfootImage ("     SCORE: " + score, 30, null, null));
+        setImage(new GreenfootImage ("     SCORE: " + score, 30, color, null));
     }
     
     public void addScore() // Score gerado após eliminação de um bot padrão

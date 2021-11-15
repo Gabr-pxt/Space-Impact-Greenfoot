@@ -1,17 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-public class MyWorld3 extends WorldGame
+public class MyWorld4 extends WorldGame
 {
-    Level level = new Level(3, hudColor);
-    
-    int actualScore;   
+    Level level = new Level(4, hudColor);
+    int actualScore;
+    boolean bossIsDead = false;
 
     
-    public MyWorld3(int actualScore)
-    {    
-        super(700, 500, 1); 
+    public MyWorld4(int actualScore)
+    {   
+        super(700, 500, 1);
+        hudColor = Color.WHITE;
         prepare();
-        Greenfoot.setSpeed(50);
+        Greenfoot.setSpeed(51);
         actualScore = actualScore;
         counter.score = actualScore;
     }
@@ -21,12 +22,17 @@ public class MyWorld3 extends WorldGame
     {
         if(Greenfoot.getRandomNumber(60)<1)
         {
-            addBots3();
+            addBots4();
         }
         
-        if (counter.score == 1100)
+        if (counter.score >= 1000)
         {
-            Greenfoot.setWorld(new PhaseDone(counter.score,4));
+            
+        }
+        
+        if (counter.score == 1500 && bossIsDead)
+        {
+            Greenfoot.setWorld(new PhaseDone(counter.score,0));
         }
     }
     

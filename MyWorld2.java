@@ -2,7 +2,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 public class MyWorld2 extends WorldGame
 {
-    Level level = new Level(2);
+    Level level = new Level(2, hudColor);
     
     boolean bossIsDead = false;
     
