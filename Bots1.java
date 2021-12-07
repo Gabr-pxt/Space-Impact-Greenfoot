@@ -1,8 +1,17 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-
+/**
+ * Classe que representa os inimigos do jogo na fase 01
+ * 
+ * @author Gabriel Peixoto, Kaique Nascimento, Joel Vasconcelos e Yago Santos
+ * @since 06/12/2021
+ * 
+ */
 public class Bots1 extends Bots
 {
+    /**
+     * Metodo que representa a açao que o objeto tera em cena (onde devem ser colocadas as chamadas de metodos)
+     */
     public void act()
     {
         moveBots();
@@ -10,7 +19,9 @@ public class Bots1 extends Bots
     }
     
     
-    // Verifica as colisões envolvendo o objeto dentro da cena
+    /**
+     * Metodo que verifica se houve colisoes do objeto com disparos, com a nave ou o fim da tela
+     */
     public void alvoAcertado() {
         
         Actor tiro = getOneIntersectingObject(Tiro.class);

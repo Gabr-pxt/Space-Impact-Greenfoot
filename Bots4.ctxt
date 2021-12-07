@@ -1,7 +1,10 @@
 #BlueJ class context
 comment0.target=Bots4
+comment0.text=\n\ Classe\ que\ representa\ os\ inimigos\ do\ jogo\ na\ fase\ 04\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 comment2.params=
 comment2.target=void\ alvoAcertado()
+comment2.text=\n\ Metodo\ que\ verifica\ se\ houve\ colisoes\ do\ objeto\ com\ disparos,\ com\ a\ nave\ ou\ com\ o\ fim\ da\ tela\n
 numComments=3

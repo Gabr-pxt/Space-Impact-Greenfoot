@@ -1,13 +1,19 @@
 #BlueJ class context
 comment0.target=Bots
+comment0.text=\n\ Classe\ que\ representa\ todos\ os\ objetos\ que\ interagem\ com\ o\ jogador\ (classe\ Nave)\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 comment2.params=
 comment2.target=void\ moveBots()
+comment2.text=\n\ Metodo\ responsavel\ por\ movimentar\ os\ objetos\ na\ tela\n
 comment3.params=
 comment3.target=void\ moveBots3()
+comment3.text=\n\ Metodo\ resposavel\ pela\ movimenta\u00E7ao\ dos\ objetos\ a\ partir\ da\ fase\ 03\n
 comment4.params=upOrDown
 comment4.target=void\ moveBoss(int)
+comment4.text=\n\ Metodo\ responsavel\ pela\ movimenta\u00E7\u00E3o\ do\ boss\ que\ aparecer\u00E1\ na\ fase\ 002\ contendo\ moviemnta\u00E7\u00E3o\ alternada\n\ \n\ @param\ upOrDows\ um\ valor\ que\ representa\ a\ dire\u00E7ao\ que\ o\ objeto\ deve\ seguir\ na\ tela\n
 comment5.params=
 comment5.target=void\ removeBots()
+comment5.text=\n\ Metodo\ responsavel\ por\ remover\ o\ objeto\ da\ tela\ ao\ colidir\ com\ a\ "parede"\ (lateral\ da\ tela)\n
 numComments=6

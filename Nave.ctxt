@@ -1,17 +1,25 @@
 #BlueJ class context
 comment0.target=Nave
+comment0.text=\n\ Classe\ que\ representa\ a\ nave\ do\ jogador\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 comment2.params=
 comment2.target=void\ mover()
+comment2.text=\n\ Metodo\ responsavel\ por\ controlar\ a\ movimenta\u00E7ao\ da\ nave\ de\ acorco\ com\ os\ comandos\ do\ jogador\n
 comment3.params=
 comment3.target=void\ atirar()
+comment3.text=\n\ Metodo\ responsavel\ por\ chamar\ os\ metodos\ dos\ disparos\ do\ jogador\n
 comment4.params=
 comment4.target=void\ atirar1()
+comment4.text=\n\ Metodo\ que\ efetua\ o\ disparo\ do\ \ jogador\ com\ apenas\ um\ projetil\n
 comment5.params=
 comment5.target=void\ atirar2()
+comment5.text=\n\ Metodo\ que\ efetua\ o\ disparo\ do\ \ jogador\ com\ dois\ projeteis\n
 comment6.params=
 comment6.target=void\ bossHit()
+comment6.text=\n\ Metodo\ que\ verifica\ se\ um\ disparo\ de\ um\ boss\ atingiu\ a\ nave\ do\ jogador\n
 comment7.params=
 comment7.target=void\ bulletHit()
+comment7.text=\n\ Verifica\ se\ a\ nave\ colidiu\ com\ um\ objeto\ da\ classe\ Bullet\n
 numComments=8

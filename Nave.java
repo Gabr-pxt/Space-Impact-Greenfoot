@@ -1,8 +1,18 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 import greenfoot.Actor;
 
+/**
+ * Classe que representa a nave do jogador
+ * 
+ * @author Gabriel Peixoto, Kaique Nascimento, Joel Vasconcelos e Yago Santos
+ * @since 06/12/2021
+ * 
+ */
 public class Nave extends Actor
 {
+    /**
+     * Metodo que representa a açao que o objeto tera em cena (onde devem ser colocadas as chamadas de metodos)
+     */
     public void act() // Metodo Update do Player
     {
         mover();
@@ -11,7 +21,10 @@ public class Nave extends Actor
         bulletHit();
     }    
     
-    public void mover() // Movimentação do Player
+    /**
+     * Metodo responsavel por controlar a movimentaçao da nave de acorco com os comandos do jogador
+     */
+    public void mover()
     {
         if(Greenfoot.isKeyDown ("Up") && (getY() > 65))
         {
@@ -24,6 +37,9 @@ public class Nave extends Actor
         }
     }    
     
+    /**
+     * Metodo responsavel por chamar os metodos dos disparos do jogador
+     */
     public void atirar()
     {
         World w = getWorld();
@@ -34,6 +50,9 @@ public class Nave extends Actor
             atirar1();
     }
     
+    /**
+     * Metodo que efetua o disparo do  jogador com apenas um projetil
+     */
     public void atirar1() // Chamada do objeto Tiro 
     {
         World w = getWorld();
@@ -44,6 +63,9 @@ public class Nave extends Actor
         }
     }
     
+    /**
+     * Metodo que efetua o disparo do  jogador com dois projeteis
+     */
     public void atirar2() // Chamada de dois objetos Tiro 
     {
         World w = getWorld();
@@ -55,11 +77,13 @@ public class Nave extends Actor
         }
     }
     
-    public void bossHit() // Executado quando o tiro disparado pelo Boss colide com o player
+    /**
+     * Metodo que verifica se um disparo de um boss atingiu a nave do jogador
+     */
+    public void bossHit()
     {
         Actor tiroInimigo1 = getOneIntersectingObject(Tiro2.class);
         Actor tiroInimigo2 = getOneIntersectingObject(Tiro3.class);
-        
         if (tiroInimigo1 != null || tiroInimigo2 != null)
         {
             getWorld().removeObject(tiroInimigo1);
@@ -71,11 +95,14 @@ public class Nave extends Actor
         }
     }
     
+    /**
+     * Verifica se a nave colidiu com um objeto da classe Bullet
+     */
     public void bulletHit()
     {
         Actor bullet = getOneIntersectingObject(Bullet.class);
         
-        if (bullet != null)
+        if (bullet != null) //colisao sendo verdadeira o objeto Bullet e removido da tela e muda o modo de disparo da nave
         {
             getWorld().removeObject(bullet);
             World world = getWorld();

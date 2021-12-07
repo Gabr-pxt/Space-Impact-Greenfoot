@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=Level
+comment0.text=\n\ Classe\ que\ representa\ o\ valor\ da\ fase\ que\ esta\ sendo\ jogada\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=color
 comment1.target=Level(greenfoot.Color)
+comment1.text=\n\ Metodo\ construtor\n
 comment2.params=index\ color
 comment2.target=Level(int,\ greenfoot.Color)
+comment2.text=\n\ Sobrecarga\ do\ metodo\ construtor\ recebendo\ um\ paramentro\n\ \n\ @param\ indice\ que\ representa\ o\ numero\ da\ fase\n
 comment3.params=
 comment3.target=void\ act()
+comment3.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 numComments=4

@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=Msg
+comment0.text=\n\ Classe\ que\ representa\ uma\ mensagem\ na\ tela\ do\ jogo\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=
 comment1.target=Msg()
+comment1.text=\n\ Metodo\ construtor\n
 comment2.params=msg\ fontSize
 comment2.target=Msg(java.lang.String,\ int)
+comment2.text=\n\ Sobrecarga\ do\ metodo\ construtor\ que\ recebe\ 2\ paramentos\n\ \n\ @param\ valor\ da\ mensagem\ que\ ira\ aparecer\ na\ tela\n\ @param\ tamanho\ da\ fonte\ da\ mensagem\n
 comment3.params=
 comment3.target=void\ act()
+comment3.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 numComments=4

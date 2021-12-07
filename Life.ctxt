@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=Life
+comment0.text=\n\ Classe\ que\ representa\ o\ valor\ das\ vidas\ do\ jogador\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=color
 comment1.target=Life(greenfoot.Color)
+comment1.text=\n\ Metodo\ Construtor\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 comment3.params=
 comment3.target=void\ removeLife()
+comment3.text=\n\ Metodo\ responsavel\ por\ remover\ uma\ vida\ do\ jogador\n
 comment4.params=
 comment4.target=void\ youLose()
+comment4.text=\n\ Metodo\ responsavel\ por\ chamar\ a\ tela\ de\ "game\ over"\n
 numComments=5

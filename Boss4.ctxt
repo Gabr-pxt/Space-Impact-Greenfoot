@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=Boss4
+comment0.text=\n\ Classe\ que\ representa\ o\ boss\ que\ aparece\ na\ fase\ 04\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=upOrDown
 comment1.target=Boss4(int)
+comment1.text=\n\ Metodo\ construtor\n\ \n\ @param\ recebe\ um\ valor\ que\ indicara\ a\ dire\u00E7ao\ que\ o\ boss\ ira\ se\ mover\ na\ tela\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 comment3.params=
 comment3.target=void\ autoFire()
+comment3.text=\n\ Metodo\ que\ representa\ o\ sistem\ de\ dispatos\ do\ boss\n
 comment4.params=
 comment4.target=void\ alvoAcertado()
+comment4.text=\n\ Metodo\ resposavel\ por\ verificar\ as\ colisoes\ entre\ os\ disparos\ do\ boss\ e\ a\ nave,\ e\ os\ disparos\ da\ nave\ e\ o\ boss\n
 numComments=5

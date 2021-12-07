@@ -1,5 +1,6 @@
 #BlueJ class context
 comment0.target=YouLose
+comment0.text=\n\ Classe\ que\ representa\ a\ imagem\ com\ a\ mensagem\ de\ "game\ over"\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=
 comment1.target=void\ act()
 numComments=2

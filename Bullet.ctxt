@@ -1,8 +1,10 @@
 #BlueJ class context
 comment0.target=Bullet
-comment0.text=\n\ Write\ a\ description\ of\ class\ Bullet\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\n\ Classe\ que\ representa\ a\ muni\u00E7ao\ que\ o\ jogador\ pode\ pegar\ para\ aumentar\ a\ quantida\ de\ disparos\ por\ vez\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=
 comment1.target=void\ act()
+comment1.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos)\n
 comment2.params=
 comment2.target=void\ removeFromWorld()
+comment2.text=\n\ Metodo\ responsavel\ por\ remover\ a\ muni\u00E7ao\ ao\ chegar\ no\ fim\ da\ tela\n
 numComments=3

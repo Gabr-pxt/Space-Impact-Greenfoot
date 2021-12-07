@@ -1,11 +1,16 @@
 #BlueJ class context
 comment0.target=Counter
+comment0.text=\n\ Classe\ que\ representa\ o\ contador\ de\ pontos\ do\ jogo\n\ \n\ @author\ Gabriel\ Peixoto,\ Kaique\ Nascimento,\ Joel\ Vasconcelos\ e\ Yago\ Santos\n\ @since\ 06/12/2021\n\ \n
 comment1.params=color
 comment1.target=Counter(greenfoot.Color)
+comment1.text=\n\ Metodo\ construtor\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\n\ Metodo\ que\ representa\ a\ a\u00E7ao\ que\ o\ objeto\ tera\ em\ cena\ (onde\ devem\ ser\ colocadas\ as\ chamadas\ de\ metodos),\ atualiza\ o\ score\n
 comment3.params=
 comment3.target=void\ addScore()
+comment3.text=\n\ Metodo\ responsavel\ por\ aumentar\ o\ Score\ apos\ elimina\u00E7\u00E3o\ de\ um\ bot\ padrao\n
 comment4.params=
 comment4.target=void\ addBossScore()
+comment4.text=\n\ Metodo\ responsavel\ por\ aumentar\ o\ Score\ apos\ elimina\u00E7\u00E3o\ de\ um\ boss\n
 numComments=5
