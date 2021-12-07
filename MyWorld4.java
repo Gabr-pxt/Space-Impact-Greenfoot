@@ -44,7 +44,7 @@ public class MyWorld4 extends WorldGame
             
         }
         
-        if (counter.score == 1500 && bossIsDead)
+        if (counter.score >= 1500 && bossIsDead)
         {
             Greenfoot.setWorld(new PhaseDone(counter.score,0));
         }
