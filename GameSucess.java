@@ -1,17 +1,13 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class GameSucess here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Definição de que a classe GameSucess é filha da classe Wold, herdando suas caracteristicas.
  */
 public class GameSucess extends World
 {
 
     /**
-     * Constructor for objects of class GameSucess.
-     * 
+     * Metodo construtor da classe GameSucess, mesmo que simples, tem o papel fundamental de chamar o Super com seus respetivos parametros.
      */
     public GameSucess()
     {    

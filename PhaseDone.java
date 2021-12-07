@@ -1,6 +1,8 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
-
+/**
+ * Definição de que a classe PhaseDone é filha da classe Wold, herdando suas caracteristicas.
+ */
 public class PhaseDone extends World
 {
     Msg msg = new Msg("LEVEL DONE!", 70);
@@ -8,7 +10,9 @@ public class PhaseDone extends World
     
     int actualScore;
     int newPhase;
-    
+    /**
+     * Metodo construtor que recebe como parametro a pontuação (score) e a fase que sera instanciada atravez do newPhase
+     */
     public PhaseDone(int score, int phase)
     {   
         super(700, 500, 1);
@@ -17,8 +21,9 @@ public class PhaseDone extends World
         newPhase = phase;
     }
     
-    
-    // Chamada de Cena, funcionará para todas as fases
+    /**
+     * Estrutura condicional que irá fazer a chamada de Cena, funcionará para todas as fases
+     */
     public void act()
     {
         int aux;
@@ -37,7 +42,9 @@ public class PhaseDone extends World
     }
     
     
-    //Preparação da cena
+     /**
+     * Metodo que inicializa os metodos com seus respectivos parametros no inicio da fase, e que é chamada pelo metodo construtor da classe
+     */
     private void prepare()
     {
         addObject(msg, 91,510);

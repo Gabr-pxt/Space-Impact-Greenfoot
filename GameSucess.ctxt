@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=GameSucess
-comment0.text=\n\ Write\ a\ description\ of\ class\ GameSucess\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Defini\u00E7\u00E3o\ de\ que\ a\ classe\ GameSucess\ \u00E9\ filha\ da\ classe\ Wold,\ herdando\ suas\ caracteristicas.\r\n
 comment1.params=
 comment1.target=GameSucess()
-comment1.text=\n\ Constructor\ for\ objects\ of\ class\ GameSucess.\n\ \n
+comment1.text=\r\n\ Metodo\ construtor\ da\ classe\ GameSucess,\ mesmo\ que\ simples,\ tem\ o\ papel\ fundamental\ de\ chamar\ o\ Super\ com\ seus\ respetivos\ parametros.\r\n
 numComments=2

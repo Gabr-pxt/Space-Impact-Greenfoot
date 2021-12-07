@@ -1,10 +1,13 @@
 #BlueJ class context
 comment0.target=MainWindow
-comment0.text=\n\ Write\ a\ description\ of\ class\ MainWindow\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment0.text=\r\n\ Defini\u00E7\u00E3o\ de\ que\ a\ classe\ MainWindow\ \u00E9\ filha\ da\ classe\ Wold,\ herdando\ suas\ caracteristicas\ e\ sendo\ a\ primeira\ classe\ que\ \u00E9\ instanciada\ dentro\ do\ jogo.\r\n
 comment1.params=
 comment1.target=MainWindow()
+comment1.text=\r\n\ Construtor\ da\ classe\ MainWindow\ e\ que\ parametriza\ o\ Super\ com\ seus\ respectivos\ valores\ e\ o\ prepare\ sem\ nenhum\ parametro,\ uma\ vez\ que\ tudo\ \u00E9\ definido\ dentro\ do\ m\u00E9todo\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ Metodo\ que\ verifica\ o\ pressionamento\ do\ Enter\ a\ fim\ de\ iniciar\ o\ jogo\r\n
 comment3.params=
 comment3.target=void\ prepare()
+comment3.text=\r\n\ Metodo\ que\ inicializa\ os\ metodos\ com\ seus\ respectivos\ parametros\ no\ inicio\ da\ fase,\ e\ que\ \u00E9\ chamada\ pelo\ metodo\ construtor\ da\ classe\r\n
 numComments=4

@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=PhaseDone
+comment0.text=\r\n\ Defini\u00E7\u00E3o\ de\ que\ a\ classe\ PhaseDone\ \u00E9\ filha\ da\ classe\ Wold,\ herdando\ suas\ caracteristicas.\r\n
 comment1.params=score\ phase
 comment1.target=PhaseDone(int,\ int)
+comment1.text=\r\n\ Metodo\ construtor\ que\ recebe\ como\ parametro\ a\ pontua\u00E7\u00E3o\ (score)\ e\ a\ fase\ que\ sera\ instanciada\ atravez\ do\ newPhase\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ Estrutura\ condicional\ que\ ir\u00E1\ fazer\ a\ chamada\ de\ Cena,\ funcionar\u00E1\ para\ todas\ as\ fases\r\n
 comment3.params=
 comment3.target=void\ prepare()
+comment3.text=\r\n\ Metodo\ que\ inicializa\ os\ metodos\ com\ seus\ respectivos\ parametros\ no\ inicio\ da\ fase,\ e\ que\ \u00E9\ chamada\ pelo\ metodo\ construtor\ da\ classe\r\n
 numComments=4

@@ -1,9 +1,13 @@
 #BlueJ class context
 comment0.target=MyWorld3
+comment0.text=\r\n\ Defini\u00E7\u00E3o\ de\ que\ a\ classe\ MyWorld3\ \u00E9\ filha\ da\ classe\ WoldGame,\ herdando\ suas\ caracteristicas.\r\n
 comment1.params=actualScore
 comment1.target=MyWorld3(int)
+comment1.text=\r\n\ Metodo\ contrutor\ que\ invoca\ o\ super,\ metodo\ prepare\ (metodo\ responsavel\ pelas\ configura\u00E7\u00F5es\ iniciais\ da\ fase),\ o\ Greenfoot.setSpeed\ (que\ define\ a\ velocidade\ reprodu\u00E7\u00E3o\ da\ cena)\ e\ \r\n\ faz\ o\ incremento\ da\ variavel\ score\ atravez\ do\ actualScore\ rcebido\ como\ parametro.\r\n
 comment2.params=
 comment2.target=void\ act()
+comment2.text=\r\n\ Metodo\ update\ da\ cena,\ realiza\ chamada\ dos\ bots\ e\ faz\ a\ verifica\u00E7\u00E3o\ de\ levelUP\r\n
 comment3.params=
 comment3.target=void\ prepare()
+comment3.text=\r\n\ Metodo\ que\ inicializa\ os\ metodos\ com\ seus\ respectivos\ parametros\ no\ inicio\ da\ fase,\ e\ que\ \u00E9\ chamada\ pelo\ metodo\ construtor\ da\ classe\r\n
 numComments=4
